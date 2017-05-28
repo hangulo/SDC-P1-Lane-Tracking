@@ -32,4 +32,4 @@ My ROI definition is VERY specific and essentially 'hardcoded' with advance know
 
 Another shortcoming will be more evident when there are more obstructions to the lanes (i.e heavy traffic, lane changes, shadows, barely visible or duplicate/old lane markings) or the lanes being very curvy since it wreaks havoc to my current pipeline.  Will need to be smarter in pre-processing so there aren't so many possible data points for lines sent to the Hough Transform function.
 
-Lastly, the ines could be smoother (they flicker a bit near bottom like the example p1 video).  If I were to add caching or memory to smooth out between frames that will help greatly.
+Lastly, the ines could be smoother (they flicker a bit near bottom like the P1_example.mp4 video).  If I were to add caching or memory to smooth out between frames that will help greatly.

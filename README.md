@@ -21,7 +21,7 @@ In this project, I built a computer vision pipeline to detect lanes lines using 
 8. Draw the lines we identified onto the original frame (in color red)
 
 
-###  Shortcomings / Areas for improvement of current Pipeline and potential areas of 
+###  Shortcomings / Areas for improvement in current pipeline 
 
 
 One potential shortcoming is that my ROI definition is VERY specific and essentially 'hardcoded' with advance knowledge of the image size, camera placement, etc.  Even if I used 'image.shape' values to better define a static  ROI for the region the lane is expected, it still would not work for big changes in elevation.  A smarter detection of the lanes (i.e vanishing point, curvature, etc) is necessary where it doesnt depend on lane lines and horizon always being centered.

@@ -17,11 +17,11 @@ In this project, I built a computer vision pipeline to detect lanes lines using 
 1. Converting a single frame to grayscale
 2. Creating a mask to detect areas in yellow and white color range
 3. Applying a Gaussian Blur to smooth out image to have less noise for Canny Edge Detection
-4. Running Canny Edge Detection
-5. Applying a mask to ignore things outside of where we 'expect' to see lane lines
-6. Running a Hough Transform to identify all the lines 
+4. Running Canny Edge Detection (labeled as "Canny Edge" below)
+5. Applying a mask to ignore things outside of where we 'expect' to see lane lines (labeled as "ROI" below)
+6. Running a Hough Transform to identify all the lines (labeled as "Hough Lines" below)
 7. ** TO DO ** Modified the Draw_lines function to extrapolate the average of the lines so we have only 1 line for each lane
-8. Draw the lines we identified onto the original frame (in color red)
+8. Finally, draw the lines we identified onto the original frame (labeled as "Final" below)
 
 ![alt text][image1]
 

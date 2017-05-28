@@ -4,7 +4,9 @@ The goals / steps of this project are the following:
 * Make a pipeline that finds lane lines on the road
 * Reflect on your work in a written report
 
+[//]: # (Image References)
 
+[image1]: ./test_images/pipeline.png "Pipeline"
 ---
 
 ### Reflection
@@ -20,6 +22,7 @@ In this project, I built a computer vision pipeline to detect lanes lines using 
 7. ** TO DO ** Modified the Draw_lines function to extrapolate the average of the lines so we have only 1 line for each lane
 8. Draw the lines we identified onto the original frame (in color red)
 
+![alt text][image1]
 
 ###  Shortcomings / Areas for improvement in current pipeline 
 
